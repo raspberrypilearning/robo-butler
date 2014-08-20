@@ -59,30 +59,24 @@ If the test does not run as expected, check all connections and batteries and tr
 1. Plug the Bluetooth dongle into the Raspberry Pi's USB, boot it up and login.
 2. Follow the instructions in the [Bluetooth set up] guide.
 
-
 ##Step 5. Test that your Wiimote can connect to the Raspberry Pi
 Follow the instructions in the [Wiimote set up] guide
 
-
 ##Step 6. Type in the main program
-This is the main program that will let you control the rover with the Wiimote. At the command line type `nano robot.py`. Type in the following [program](robot.py):
+This is the main program that will let you control the rover with the Wiimote. 
+At the command line type `nano robot.py`. 
+Type, or cut and paste, this [program](robot.py). When you have finished:
 
-
-```python
-final code here
-
-```
 Press `CTRL-o` and then `Enter` to save
 Press `CTRL-x` to exit to the command line
 
-Now run the test program: `sudo python robot.py`
+Now run the program: `sudo python robot.py`
 
 If everything is working properly you should be able to control your rover with the Wiimote. If not, go back through the guide and check that each step is working properly.
 
 ##Step 7. Make your robot's body
-Now you have a remote controlled rover, which is completely fantastic, but he looks a little ... bare. He clearly needs sprucing up. How you do this is up to you, but use your imagination to make a robot worth of having a Raspberry Pi stuck up its bum. Tip: recycling, reusing and repurposing is good! Here's how we made ours.:
-![robot design]robobutler-design.png
-![photo of finished robot]robobutler-finished.png
+Now you have a remote controlled rover, which is completely fantastic, but he looks a little ... rovery. He clearly needs sprucing up and androidifying. How you do this is up to you, but use your imagination to make a robot worth of having a Raspberry Pi stuck up its bum. Tip: recycling, reusing and repurposing is good! Here's how we made ours:
+![photo of finished robot]robobutler.png
 
 ##Step 8. Improvements
 In the next worksheet we will show you how to automatically run the Python script on startup and give you spoken cues so that you know when to connect the Wiimote.
