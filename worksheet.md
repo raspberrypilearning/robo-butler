@@ -79,7 +79,7 @@ Now you have a remote controlled rover, which is completely fantastic, but he lo
 ![photo of finished robot](images/robobutler.jpg)
 
 ##Step 8. Improvements
-In the next worksheet we will show you how to automatically run the Python script on startup and give you spoken cues so that you know when to connect the Wiimote.
+In the next worksheet we will show you how to automatically run the Python script on startup and give you spoken cues so that you know when to connect the Wiimote. You will also learn how to make your robot speak!
 
 [GPIO]: http://www.raspberrypi.org/documentation/usage/gpio/README.md
 [Bluetooth set up]: bluetooth-setup.md
