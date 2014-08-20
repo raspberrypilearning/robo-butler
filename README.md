@@ -6,15 +6,21 @@ This guide shows you how to build and control a Rasberry Pi powered robot with a
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
 
 ### Hardware
-
+- Robot chassis: Rover 5. This includes 2 motors and a battery pack
+- Motor controller: Ryantek motor controller
+- Input device: Nintendo Wiimote
+- Blue tooth dongle to talk to the Wiimote 
+- Power source for the Pi: USB rechargable battery
+- [need linky to all hardware]
 
 ### Software
+- Software packages to use Bluetooth
+- Python libraries for the Wiimote
 
-
-See more information on checking you have these packages installed, and how to install them, on the software installation page.
+Instructions on installing this software is given in the worksheet.
 
 ## Worksheet
-You will need to follow the steps in the worksheet below.
+Follow the steps in the [worksheet](worksheet.md).
 
 - worksheet
 
