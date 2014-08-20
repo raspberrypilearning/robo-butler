@@ -76,7 +76,7 @@ If everything is working properly you should be able to control your rover with 
 
 ##Step 7. Make your robot's body
 Now you have a remote controlled rover, which is completely fantastic, but he looks a little ... rovery. He clearly needs sprucing up and androidifying. How you do this is up to you, but use your imagination to make a robot worth of having a Raspberry Pi stuck up its bum. Tip: recycling, reusing and repurposing is good! Here's how we made ours:
-![photo of finished robot]robobutler.png
+![photo of finished robot](images/robobutler.jpg)
 
 ##Step 8. Improvements
 In the next worksheet we will show you how to automatically run the Python script on startup and give you spoken cues so that you know when to connect the Wiimote.
