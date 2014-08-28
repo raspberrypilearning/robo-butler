@@ -7,15 +7,15 @@ It's always good to breakdown projects into chunks as it makes it much easier to
 3. Write the final program
 4. Serve a nice cup of tea to your mum.
  
-##Step 1. Connect the motor board
+## Step 1. Connect the motor board
 Put the board on the Raspberry Pi GPIO pins. It should look like this: ![Ryantek board connected to Raspberry Pi](images/ryantek.jpg)
 
-##Step 2. Connect the motor to the motor board
+## Step 2. Connect the motor to the motor board
 Connect motor 1 to the blue connector marked J3 M1 using wires stripped at each end or male-male header cables. Connect motor 2 to J2 M2. [details of which colour to which terminal]. 
 
 Tape the connections between the motor wires and the headers to stop them coming loose.
 
-Connect the battery pack to the motor board as shown.
+Connect the battery pack to the motor board as shown below.
 
 ![Ryantek board wired up to motors](images/ryantekconnect.jpg)
 
