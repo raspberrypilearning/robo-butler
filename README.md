@@ -20,9 +20,9 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 Instructions on installing this software is given in the worksheet.
 
 ## Worksheet
-Follow the steps in the [worksheet](worksheet.md).
+Follow the steps in the worksheet.
 
-- worksheet
+- [worksheet](worksheet.md)
 
 ## Licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
