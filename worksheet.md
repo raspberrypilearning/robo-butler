@@ -10,7 +10,9 @@ It's always good to break down projects into chunks, as it makes it much easier 
  
 ## Step 1. Connect the motor board
 
-Put the board on the Raspberry Pi GPIO pins. It should look like this: ![Ryantek board connected to Raspberry Pi](images/ryantek.jpg)
+Put the board on the Raspberry Pi GPIO pins. It should look like this:
+
+![Ryantek board connected to Raspberry Pi](images/ryantek.jpg)
 
 ## Step 2. Connect the motor to the motor board
 
@@ -80,6 +82,7 @@ If everything is working properly you should be able to control your rover with 
 ## Step 7. Make your robot's body
 
 Now you have a remote-controlled rover, which is completely fantastic, but he looks a little ... rovery. He clearly needs sprucing up and androidifying. How you do this is up to you, but use your imagination to make a robot worthy of having a Raspberry Pi stuck up its bum. Tip: recycling, reusing and repurposing is good! Here's how we made ours:
+
 ![photo of finished robot](images/robobutler.jpg)
 
 ## Step 8. Improvements
