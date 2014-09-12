@@ -8,7 +8,7 @@ It's always good to break down projects into chunks, as it makes it much easier 
 3. Write the final program
 4. Serve a nice cup of tea to your mum.
  
-## Step 1. Connect the motor board
+## Step 1. Connect the motor board to the Pi
 
 Put the board on the Raspberry Pi GPIO pins. It should look like this:
 
@@ -16,13 +16,15 @@ Put the board on the Raspberry Pi GPIO pins. It should look like this:
 
 ## Step 2. Connect the motor to the motor board
 
-Connect motor 1 to the blue connector marked J3 M1, using wires stripped at each end or male-male header cables. Connect motor 2 to J2 M2. [details of which colour to which terminal]. 
+Connect one motor to the blue connector marked J3/M1, using wires stripped at each end or male-male header cables. Connect the other motor to J2/M2. It does not matter which way round you connect each individual motor at this point (if a motor turns the wrong way then just swap the wires around) but you should have something like this:
+
+![Ryanteck board wired up to motors](images/connectors-small.png) 
 
 Tape the connections between the motor wires and the headers, to stop them coming loose.
 
-Connect the battery pack to the motor board as shown below:
+Finally, connect the battery pack to the motor board as shown above. Here's what you should have at this point:
 
-![Ryanteck board wired up to motors](images/ryantekconnect.jpg)
+![Raspberry Pi hooked up to robot](images/robobutler-connected-small.png) 
 
 You now have a battery pack connected to the robot's motors via the motor control board. We will use the Raspberry Pi to control how and when the motors receive power. 
 
