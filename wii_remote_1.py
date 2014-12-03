@@ -18,12 +18,12 @@
 # -----------------------
 import cwiid
 import time
-import RPi.GPIO as io
+#import RPi.GPIO as io
 
-io.setmode(io.BCM)
-pins = (2,3,4,17)
-for i in pins:
-  io.setup(i,io.OUT)
+#io.setmode(io.BCM)
+#pins = (2,3,4,17)
+#for i in pins:
+#  io.setup(i,io.OUT)
 
 button_delay = 0.1
 
@@ -63,22 +63,22 @@ while True:
   if (buttons & cwiid.BTN_LEFT):
     print 'Left pressed'
     time.sleep(button_delay)         
-    io.output(2, True)
+    #io.output(2, True)
 
   if(buttons & cwiid.BTN_RIGHT):
     print 'Right pressed'
     time.sleep(button_delay)          
-    io.output(3, True)
+    #io.output(3, True)
 
   if (buttons & cwiid.BTN_UP):
     print 'Up pressed'        
     time.sleep(button_delay)          
-    io.output(4, True)
+    #io.output(4, True)
     
   if (buttons & cwiid.BTN_DOWN):
     print 'Down pressed'      
     time.sleep(button_delay)  
-    io.output(17, True)
+    #io.output(17, True)
     
   if (buttons & cwiid.BTN_1):
     print 'Button 1 pressed'
@@ -91,8 +91,8 @@ while True:
   if (buttons & cwiid.BTN_A):
     print 'Button A pressed'
     time.sleep(button_delay)          
-    for i in pins:
-      io.output(i, False)    
+    #for i in pins:
+      #io.output(i, False)    
 
   if (buttons & cwiid.BTN_B):
     print 'Button B pressed'
