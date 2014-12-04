@@ -12,7 +12,7 @@ It's always good to break down projects into chunks, as it makes it much easier 
 
 Put the board on the Raspberry Pi GPIO pins. It should look like this:
 
-![Ryantek board connected to Raspberry Pi](images/ryantek.jpg)
+![Ryantek board connected to Raspberry Pi](images/ryanteckNews.jpg)
 
 ## Step 2. Connect the motor to the motor board
 
