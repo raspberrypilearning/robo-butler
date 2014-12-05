@@ -30,7 +30,7 @@ You now have a battery pack connected to the robot's motors via the motor contro
 
 ## Step 3. Test the motors
 
-The Ryanteck board is controlled using pins 17, 18, 22 and 23 of Raspberry Pi [GPIO] . If you set pin 17 high, motor one goes clockwise (check), whereas pin 18 high turns it anticlockwise. Pins 22 and 23 control motor 2.
+The Ryanteck board is controlled using pins 17, 18, 22 and 23 of Raspberry Pi [GPIO] . If you set pin 17 high, motor one goes clockwise, whereas pin 18 high turns it anticlockwise. Pins 22 and 23 control motor 2.
 
 Let's write a small Python script to test that everything's working. 
 
