@@ -12,7 +12,7 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 - Motor controller, such as the [Ryanteck motor controller](http://ryanteck.uk/rtk-000-001/)
 - Input device - Nintendo Wiimote
 - Bluetooth dongle to talk to the Wiimote 
-- USB rechargable battery to power the Raspberry Pi like [this one from the PiHut](http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi)
+- USB rechargeable battery to power the Raspberry Pi like [this one from the PiHut](http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi)
 
 ### Software
 
