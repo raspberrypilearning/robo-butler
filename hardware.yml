@@ -1,0 +1,15 @@
+- name: Robot chassis
+  img: robot-chassis
+  url: http://proto-pic.co.uk/dagu-rover-5-tracked-chassis-with-encoders/
+- name: Motor controller
+  img: motor-controller
+  url: http://ryanteck.uk/rtk-000-001/
+- name: Nintendo Wiimote
+  img: nintendo-wiimote
+  url:
+- name: Bluetooth dongle
+  img: bluetooth-dongle
+  url:
+- name: USB rechargeable battery
+  img: usb-rechargeable-battery
+  url: http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi
