@@ -1,6 +1,8 @@
 # Robobutler
 Build and control a Raspberry Pi-powered robot with a Nintendo Wiimote.
 
+## Getting started
+
 It's always good to break down projects into chunks, as it makes it much easier to troubleshoot. If you do this project all at once and it doesn't work, how do you know if it's the motor board, the motors, the Bluetooth connection or your program at fault? The steps are:
 
 1. Set up and test the motor board and motors
