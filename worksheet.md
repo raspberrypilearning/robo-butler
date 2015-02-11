@@ -37,7 +37,7 @@ The Ryanteck board is controlled using pins 17, 18, 22 and 23 of Raspberry Pi [G
 
 Let's write a small Python script to test that everything's working. 
 
-At the command line type `nano test_motors.py`. Type in the following [program](/codetest.py):
+At the command line type `nano test_motors.py`. Type in the following [program](code/codetest.py):
 
 ```python
 import RPi.GPIO as io
