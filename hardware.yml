@@ -1,15 +1,15 @@
-- name: Robot chassis
+- name: 1 x Robot chassis
   img: robot-chassis
   url: http://proto-pic.co.uk/dagu-rover-5-tracked-chassis-with-encoders/
-- name: Motor controller
-  img: motor-controller
+- name: 1 x RTK Motor controller board
+  img: rtk-motor-controller
   url: http://ryanteck.uk/rtk-000-001/
-- name: Nintendo Wiimote
+- name: 1 x Nintendo Wiimote
   img: nintendo-wiimote
-  url:
-- name: Bluetooth dongle
+  url: http://www.amazon.co.uk/Nintendo-Wii-Remote-Plus-Controller/dp/B009ACAKL8
+- name: 1 x Bluetooth dongle
   img: bluetooth-dongle
-  url: http://www.amazon.co.uk/Inateck®-Wireless-Bluetooth-Adapter-Compatible/dp/B00F0CG0N4/ref=lp_430572031_1_13
-- name: USB rechargeable battery
-  img: usb-rechargeable-battery
+  url: http://www.amazon.co.uk/Inateck®-Wireless-Bluetooth-Adapter-Compatible/dp/B00F0CG0N4
+- name: 1 x Portable power pack
+  img: portable-power-pack
   url: http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi
