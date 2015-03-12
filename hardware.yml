@@ -10,6 +10,6 @@
 - name: 1 x Bluetooth dongle
   img: bluetooth-dongle
   url: http://www.amazon.co.uk/Inateck®-Wireless-Bluetooth-Adapter-Compatible/dp/B00F0CG0N4
-- name: 1 x Portable power pack
-  img: portable-power-pack
-  url: http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi
+- name: 1 x USB power pack
+  img: usb-power-pack
+  url: http://www.amazon.co.uk/TeckNet-PowerZen-External-Portable-Motorola-Black/dp/B00721FN8E
