@@ -4,7 +4,7 @@ import time
 io.setmode(io.BCM)
 pins = [17, 18, 22, 23]
 for i in pins:
-  io.setup(i, io.output)
+  io.setup(i, io.OUT)
 
 #test motors by spinning each one way then the other with 0.5 sec delay
 for i in pins:
