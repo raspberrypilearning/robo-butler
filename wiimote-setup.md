@@ -24,7 +24,7 @@ Type `sudo apt-get install python-cwiid`.
 ## Test it
 
 The following program will test that the Wiimote can communicate with your Raspberry Pi. 
-At the command line type `nano wii_remote_1.py` then type in or copy and paste the [code](code/wii_remote_1.py) here:
+At the command line type `nano wii_remote_1.py` then type in or copy and paste the [code here](code/wii_remote_1.py).
 
 When you have finished:
 
