@@ -9,6 +9,7 @@ It's always good to break down projects into chunks, as it makes it much easier 
 2. Set up and test the Bluetooth connection
 3. Set up and test the Wiimote
 3. Write the final program
+4. Build your robot's body
 4. Serve a nice cup of tea to your mum.
  
 ## Connect the motor board to the Pi
