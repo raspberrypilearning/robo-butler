@@ -15,7 +15,9 @@ You may also see other Bluetooth devices that are in range, but you can ignore t
 
 Now you know that Bluetooth is working and can communicate with the Wiimote. The last step is to make sure that we can talk to the Wiimote using Python.
 
-##Step 2. Install the CWiid Module so that Python can talk to the Wiimote
+##Step 2. Install the CWiid Module
+
+You need to install the CWiid module so that Python can talk to the Wiimote.
 
 Type `sudo apt-get install python-cwiid`.
 
