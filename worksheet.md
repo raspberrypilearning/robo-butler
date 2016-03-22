@@ -9,6 +9,7 @@ It's always good to break down projects into chunks, as it makes it much easier 
 2. Set up and test the Bluetooth connection
 3. Set up and test the Wiimote
 3. Write the final program
+4. Build your robot's body
 4. Serve a nice cup of tea to your mum.
  
 ## Connect the motor board to the Pi
@@ -90,9 +91,11 @@ Now you have a remote-controlled rover, which is completely fantastic, but he lo
 
 ![photo of finished robot](images/robobutler.jpg)
 
-## Improvements
+## What next? 
 
-In the next worksheet we will show you how to automatically run the Python script on startup, and give you spoken cues so that you know when to connect the Wiimote. You will also learn how to make your robot speak!
+- Could you automatically run the Python script on startup? 
+- How about spoken cues so that you know when to connect the Wiimote? 
+- Could you make your robot speak?
 
 [GPIO]: http://www.raspberrypi.org/documentation/usage/gpio/README.md
 [Bluetooth set up]: bluetooth-setup.md
