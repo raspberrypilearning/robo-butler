@@ -1,7 +1,7 @@
 - name: 1 x Robot chassis
   img: robot-chassis
-- name: 1 x RTK Motor controller board
-  img: rtk-motor-controller
+- name: 1 x Motor controller board
+  img: motor-controller
 - name: 1 x Nintendo Wiimote
   img: nintendo-wiimote
 - name: 1 x Bluetooth dongle
