@@ -1,8 +1,11 @@
 # Build a Wiimote-controlled Robot Butler!
 
+**This is an archived resource.** The repo will remain available but the resource will no longer be maintained or updated. Some or all parts of the resource may no longer work. To see our latest resources, please visit [raspberrypi.org](http://www.raspberrypi.org). 
+
+
 ![](cover.png)
 
-This guide shows you how to build and control a Raspberry Pi-powered robot with a Nintendo Wiimote. 
+This guide shows you how to build and control a Raspberry Pi-powered robot with a Nintendo Wiimote.
 
 ## Requirements
 
@@ -13,7 +16,7 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 - Robot chassis - [Rover 5](http://proto-pic.co.uk/dagu-rover-5-tracked-chassis-with-encoders/). This includes 2 motors and a battery pack.
 - Motor controller, such as the [Ryanteck motor controller](http://ryanteck.uk/rtk-000-001/)
 - Input device - Nintendo Wiimote
-- Bluetooth dongle to talk to the Wiimote 
+- Bluetooth dongle to talk to the Wiimote
 - USB rechargeable battery to power the Raspberry Pi like [this one from the PiHut](http://thepihut.com/products/portable-power-pack-for-the-raspberry-pi)
 
 ### Software
@@ -38,5 +41,3 @@ Unless otherwise specified, everything in this repository is covered by the foll
 ***Robo Butler*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/robobutler
-
-

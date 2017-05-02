@@ -1,4 +1,7 @@
 # Robobutler
+
+**This is an archived resource.** The repo will remain available but the resource will no longer be maintained or updated. Some or all parts of the resource may no longer work. To see our latest resources, please visit [raspberrypi.org](http://www.raspberrypi.org).
+
 Build and control a Raspberry Pi-powered robot with a Nintendo Wiimote.
 
 ## Getting started
@@ -11,7 +14,7 @@ It's always good to break down projects into chunks, as it makes it much easier 
 3. Write the final program
 4. Build your robot's body
 4. Serve a nice cup of tea to your mum.
- 
+
 ## Connect the motor board to the Pi
 
 Put the board on the Raspberry Pi GPIO pins. It should look like this:
@@ -22,21 +25,21 @@ Put the board on the Raspberry Pi GPIO pins. It should look like this:
 
 Connect one motor to the blue connector marked J3/M1, using wires stripped at each end or male-male header cables. Connect the other motor to J2/M2. It does not matter which way round you connect each individual motor at this point (if a motor turns the wrong way then just swap the wires around) but you should have something like this:
 
-![Ryanteck board wired up to motors](images/connectors-small.png) 
+![Ryanteck board wired up to motors](images/connectors-small.png)
 
 Tape the connections between the motor wires and the headers, to stop them coming loose.
 
 Finally, connect the battery pack to the motor board as shown above. Here's what you should have at this point:
 
-![Raspberry Pi hooked up to robot](images/robobutler-connected-small.png) 
+![Raspberry Pi hooked up to robot](images/robobutler-connected-small.png)
 
-You now have a battery pack connected to the robot's motors via the motor control board. We will use the Raspberry Pi to control how and when the motors receive power. 
+You now have a battery pack connected to the robot's motors via the motor control board. We will use the Raspberry Pi to control how and when the motors receive power.
 
 ## Test the motors
 
 The Ryanteck board is controlled using pins 17, 18, 22 and 23 of Raspberry Pi [GPIO] . If you set pin 17 high, motor one goes clockwise, whereas pin 18 high turns it anticlockwise. Pins 22 and 23 control motor 2.
 
-Let's write a small Python script to test that everything's working. 
+Let's write a small Python script to test that everything's working.
 
 At the command line type `nano test_motors.py`. Type in the following [program](code/test_motors.py):
 
@@ -56,7 +59,7 @@ for pin in pins:
   time.sleep(0.5)
   io.output(pin, 0)
 
-``` 
+```
 
 Press `CTRL-o` and then `Enter` to save
 Press `CTRL-x` to exit to the command line
@@ -91,10 +94,10 @@ Now you have a remote-controlled rover, which is completely fantastic, but he lo
 
 ![photo of finished robot](images/robobutler.jpg)
 
-## What next? 
+## What next?
 
-- Could you automatically run the Python script on startup? 
-- How about spoken cues so that you know when to connect the Wiimote? 
+- Could you automatically run the Python script on startup?
+- How about spoken cues so that you know when to connect the Wiimote?
 - Could you make your robot speak?
 
 [GPIO]: http://www.raspberrypi.org/documentation/usage/gpio/README.md
